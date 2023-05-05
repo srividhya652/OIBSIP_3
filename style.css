@@ -1,0 +1,219 @@
+.container{
+    position: absolute;
+    top: 0;
+    left: 400px;
+    width: 550px;
+    min-height: 730px;
+    background-color: white;
+    overflow: auto;
+}
+  
+  .image{
+    position: absolute;
+    left: 10px;
+    top: 8px;
+  }
+  
+  .image img{
+    width: 525px;
+  }#currentDate{
+    position:relative;
+    top: 3px;
+    text-align: center;
+    box-shadow: 3px 3px 5px grey;
+    border: 2px solid black;
+    font-size: 40px;
+    background-color:#d7094093;
+    text-size-adjust:unset;
+}
+  body{
+    background-color:darkorange;
+  }
+  
+  #inputList{
+      position: relative;
+      left: 17px;
+      top: 385px;
+      width: 515px;
+      height: 49px;
+      font-size: 20px;
+      border-radius: 5px;
+      border: 1px solid black;
+      padding-left: 6px;
+  }
+  
+  .list{
+      box-shadow: 2px 2px 5px grey;
+      height: 48px;
+      width: 521px;
+      position: relative;
+      top: 450px;
+      left: 14px;
+      margin-top: 20px;
+      border-radius: 10px;
+      cursor: pointer;
+  }
+  
+  
+  .label{
+    position: absolute;
+    top:10px;
+    left: 55px;
+    font-size: 25px;
+    
+  }
+  
+  .checkbox{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+  }
+  
+  .dotBtn{
+      position: absolute;
+      top: -10px;
+      left: 473px;
+      background-color: transparent;
+      border: none;
+      font-size: 40px;
+      cursor: pointer;
+  }
+  
+  .btnContainer{
+    position: absolute;
+    top: 20px;
+    left: 360px;
+    width: 145px;
+    height: 92px;
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
+  }
+  
+  .cross{
+    position: absolute;
+    top: 3px;
+    left: 120px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 300px;
+  }
+  
+  .cross:hover{
+    background-color: black;
+    color: white;
+  }
+  
+  .DeleteBtn{
+    position: absolute;
+    top: 24px;
+    left: 12px;
+    height: 27px;
+    width: 85%;
+    border-radius: 5px;
+    border: none;
+    background-color: #ef1212;
+    color: white;
+    cursor: pointer;
+    padding: 4px;
+  
+  }
+  
+  .editBtn{
+    position: absolute;
+    top: 55px;
+    left: 12px;
+    height: 27px;
+    width: 85%;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 4px;
+  }
+  
+   .editContainer{
+    position: fixed;
+    top: 265px;
+    left: 550px;
+    height: 130px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
+  }
+  
+  #editInput{
+    position: absolute;
+    top: 30px;
+    left: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+  }
+  #ADD{
+    Position: absolute;
+    top: 390px;
+    right: 610px;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 5px;
+    FONT-SIZE: 20px;
+    WIDTH: 52px;
+    border: 3px solid hwb(60 9% 91%);
+    background-color:aqua
+}
+
+#ADD:hover{
+  background-color:#fbfb18;
+}
+  #AllTasks{
+      Position: absolute;
+      top: 460px;
+      left: 443px;
+      cursor: pointer;
+      padding: 4px;
+      border-radius: 5px;
+      FONT-SIZE: 20px;
+      WIDTH: 125px;
+      border: 3px solid black;
+      background-color:deeppink;
+  }
+  
+  #AllTasks:hover{
+    background-color:chartreuse;
+  }
+  
+  #PendingTasks{
+      position: absolute;
+      top: 460px;
+      left: 593px;
+      cursor: pointer;
+      padding: 4px;
+      FONT-SIZE: 20PX;
+      border-radius: 5px;
+      border: 3px solid black;
+      background-color:deeppink;
+    }
+  
+  #PendingTasks:hover{
+     background-color: chartreuse;
+    }
+  
+  #CompletedTasks{
+      position: absolute;
+      top: 460px;
+      left: 760px;
+      cursor: pointer;
+      padding: 4px;
+      FONT-SIZE: 20PX;
+      border-radius: 5px;
+      border: 3px solid black;
+      background-color:deeppink; 
+  }
+  #CompletedTasks:hover{
+     background-color: chartreuse;
+}
